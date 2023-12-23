@@ -15,6 +15,6 @@ buttons.forEach(button => {
         span.innerHTML = `<span class="circle" style="top: ${yInside}px; left: ${xInside}px;"></span>`;
         e.target.appendChild(span);
 
-        setTimeout(() => span.remove(), 500)
+        setTimeout(() => span.remove(), 400)
     })
 })
